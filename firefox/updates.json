@@ -1,0 +1,18 @@
+{
+  "addons": {
+    "stazio-gde@deeplex": {
+      "updates": [
+        {
+          "version": "0.2.1",
+          "update_link": "https://elpetoo.github.io/stazio/firefox/stazio-gde-0.2.1.xpi",
+          "applications": {
+            "gecko": {
+              "strict_min_version": "142.0"
+            }
+          },
+          "update_hash": "sha256:74eb495a8ad8f5a67600305b21e83fd9e4a94762553ef80de1311ce220810c90"
+        }
+      ]
+    }
+  }
+}

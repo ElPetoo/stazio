@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Instalar Stazio GDE en Firefox</title>
+<meta name="robots" content="noindex">
+<style>
+  :root { --ink: #0E212E; --ink-700: #28404B; --cobre: #9E623C; --cobre-texto: #815031; --papel: #FFFDF8; --lienzo: #F4F6F8; --borde: #E3E7EB; --gris: #64727A; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--lienzo); color: var(--ink); font: 16px/1.6 "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif; }
+  header { background: var(--ink); color: var(--papel); border-bottom: 5px solid var(--cobre); }
+  header .adentro { max-width: 820px; margin: 0 auto; padding: 22px 20px; display: flex; align-items: center; gap: 14px; }
+  header .nombre { font-weight: 700; letter-spacing: .04em; font-size: 18px; }
+  header .nombre small { font-weight: 400; letter-spacing: 0; color: #B9C5CC; margin-left: 10px; font-size: 14px; }
+  header a { color: #EDBB9B; text-decoration: none; margin-left: auto; font-size: 14px; }
+  main { max-width: 820px; margin: 0 auto; padding: 28px 20px 60px; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 0 0 10px; }
+  p, li { color: var(--ink-700); }
+  .boton { display: inline-block; padding: 14px 22px; border-radius: 12px; background: var(--cobre); color: #fff; text-decoration: none; font-weight: 600; font-size: 18px; margin: 10px 0 6px; }
+  .nota { font-size: 14px; color: var(--gris); }
+  ol li { margin-bottom: 8px; }
+  .tarjeta { background: #fff; border: 1px solid var(--borde); border-radius: 10px; padding: 16px 18px; margin: 10px 0; }
+  code { font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 14px; background: #F2F5F8; padding: 1px 5px; border-radius: 5px; }
+  a { color: var(--cobre-texto); }
+  footer { max-width: 820px; margin: 0 auto; padding: 0 20px 40px; color: var(--gris); font-size: 13px; }
+</style>
+</head>
+<body>
+<header><div class="adentro"><span class="nombre">STAZIO GDE <small>by DeepLex</small></span><a href="../">Inicio y soporte</a></div></header>
+<main>
+  <h1>Instalar Stazio GDE en Firefox</h1>
+  <p>Stazio GDE se distribuye por invitación: no aparece en la tienda de Firefox, pero el archivo está <strong>firmado por Mozilla</strong> y Firefox lo actualiza solo. Pide Firefox 142 o más nuevo.</p>
+  <a class="boton" href="stazio-gde-0.2.1.xpi">Instalar Stazio GDE 0.2.1</a>
+  <p class="nota">Si Firefox baja el archivo en vez de instalarlo, abrí <code>about:addons</code>, tocá el engranaje → "Instalar complemento desde archivo…" y elegí el archivo descargado.</p>
+
+  <h2>Qué va a pasar al tocar el botón</h2>
+  <ol>
+    <li>Firefox avisa arriba a la izquierda: <em>"Firefox evitó que este sitio le pida instalar software"</em>. Tocá <strong>Permitir</strong>.</li>
+    <li>Aparece "Agregar Stazio GDE · by DeepLex": tocá <strong>Agregar</strong>.</li>
+    <li>Si Firefox pregunta por el permiso para <code>eue.gde.rionegro.gov.ar</code>, aceptalo. Sin ese permiso el botón "Bajar el expediente" no aparece en GDE (también se da desde el ícono de extensiones, el rompecabezas → Stazio GDE → Permisos).</li>
+    <li>Entrá a GDE, abrí un expediente en <strong>Documentos → Con Pase</strong> y abajo a la derecha está "Bajar el expediente".</li>
+  </ol>
+
+  <div class="tarjeta"><strong>Privacidad.</strong> Un solo sitio (<code>eue.gde.rionegro.gov.ar</code>), ningún otro permiso, nada se guarda y nada sale de tu computadora. <a href="../privacidad.html">Política de privacidad</a>.</div>
+</main>
+<footer>Stazio · by DeepLex · <a href="https://deeplex.com.ar/">deeplex.com.ar</a>. No es un producto oficial del Gobierno de Río Negro; el PDF es una copia de trabajo, no una copia certificada.</footer>
+</body>
+</html>
