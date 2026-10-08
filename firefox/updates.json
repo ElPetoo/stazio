@@ -4,7 +4,7 @@
       "updates": [
         {
           "version": "0.2.1",
-          "update_link": "https://elpetoo.github.io/stazio/firefox/stazio-gde-0.2.1.xpi",
+          "update_link": "https://deeplex.com.ar/stazio-gde/firefox/stazio-gde-0.2.1.xpi",
           "applications": {
             "gecko": {
               "strict_min_version": "142.0"
